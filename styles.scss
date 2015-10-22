@@ -1,0 +1,181 @@
+$borderTest: solid 1px green;
+
+
+/*****************************************
+MAIN
+*****************************************/
+body{
+background-color:black;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+/*****************************************
+ALBUM DISPLAY
+*****************************************/
+
+
+.albumDisplay {
+  width:100%;
+  background-color:white;
+
+}
+
+.albumHead {
+  width:100%;
+  background-color:black;
+  color:white;
+  font-size: 2em;
+  display:inline-block;
+  margin:0;
+  padding:0;
+    h1{
+      text-align:center;
+    }
+}
+
+.oneThird {
+  display:inline-block;
+  width:32%;
+}
+
+
+
+.albumSpace {
+  width:100%;
+  display:inline-block;
+}
+
+.albumContainer {
+  width: 300px;
+  padding: 0;
+  margin: 17%;
+  border: solid 1px black;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: center;
+  vertical-align: top;
+}
+  img{
+    width:300px;
+    font:0;
+    border-bottom: solid 1px black;
+  }
+  .albumImg{
+        width: 300px;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0;
+        font: 0;
+        font-size: 0;
+    }
+    p{
+      text-align: center;
+      width:100%;
+    }
+
+/*****************************************
+GALLERY DISPLAY
+*****************************************/
+
+
+.galleryDisplay{
+  background-color: black;
+  width: 100%;
+  display:none;
+}
+
+.galleryNav {
+  display: inline-block;
+  background-color: black;
+  width: 20%;
+}
+
+#galleryList{
+  list-style: none;
+  position: fixed;
+  width: 20%;
+  margin-top: 10%;
+
+  li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+    width: 60%;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+}
+.photoAlbumTitle {
+  width:100%;
+  text-align: center;
+  margin: 40px 0px 30px 0px;
+}
+
+
+
+.photoDisplayCase{
+  vertical-align: top;
+  display: inline-block;
+  width: 79%;
+  background-color: white;
+  float: right;
+}
+
+
+
+
+/*****************************************
+PHOTO DISPLAY
+*****************************************/
+
+
+.photoDisplay{
+  background-color: black;
+  width:100%;
+  display:none;
+}
+
+.photoHead{
+  margin-bottom: 30px;
+}
+.backAlbum{
+  display:inline-block;
+  width:30%;
+}
+.backButton{
+  background-color: white;
+  border-radius: 5px;
+  padding: 4px 6px;
+  width: 28%;
+  margin: auto;
+  display: block;
+
+}
+
+.photoTitle{
+  color:white;
+  width:68%;
+  display:inline-block;
+  h1{
+    margin-left: 20%;
+  }
+}
+
+.bigPic {
+  display:block;
+  width:800px;
+  height:800px;
+  overflow: hidden;
+  margin:auto;
+  img{
+    min-width:100%;
+  }
+}
