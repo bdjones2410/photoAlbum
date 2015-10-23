@@ -7,123 +7,61 @@
     <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 
-    <!--
-    <styles type="text/html" id="picTemp">
+
+    <script type="text/html" id="picTemp">
+
       <div class="oneThird">
-          <a href="#" id="album2">
+          <a href="" class="<%= album %>">
           <div class="albumContainer">
               <div class="albumImg"><img alt="" src="
-              <%= imageToSet %>">
+              <%= picURL %> ">
               </div>
 
 
-              <div class="album description">
-                  <p><%= album things %></p>
+              <div class="albumdescription">
+                  <p> <%= picDescript %> </p>
               </div>
           </div></a>
       </div>
 
+  </script>
 
-    </styles> -->
+  <script type="text/html" id="galTemp">
+    <div class="oneThird">
+        <a href="" class="<%= picID %>">
+        <div class="albumContainer">
+            <div class="albumImg"><img alt="" src="
+            <%= picURL %> ">
+            </div>
+
+
+            <div class="albumdescription">
+                <p> <%= picDescript %> </p>
+            </div>
+        </div></a>
+    </div>
+</script>
+
+
+<script type="text/html" id="titleTemp">
+  <div class="photoAlbumTitle">
+        <h1 class="albNum"><%= albumNamed %></h1>
+  </div>
+</script>
+
+
+
+
+
 </head>
 
 <body>
 
-    <section class="albumDisplay">
+    <section class="albumDisplay activate">
         <div class="albumHead">
             <h1>My Albums</h1>
         </div>
-
-
         <div class="albumSpace">
-            <div class="oneThird">
-                <a href="#" id="album1">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
-
-
-            <div class="oneThird">
-                <a href="#" id="album2">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
-
-
-            <div class="oneThird">
-                <a href="#" id="album3">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
-
-
-            <div class="oneThird">
-                <a href="#" id="album4">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
-
-
-            <div class="oneThird">
-                <a href="#" id="album5">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
-
-
-            <div class="oneThird">
-                <a href="#" id="album6">
-                <div class="albumContainer">
-                    <div class="albumImg"><img alt="" src=
-                    "photoImages/sculpture1.jpg">
-                    </div>
-
-
-                    <div class="album description">
-                        <p>Stuff About this album!</p>
-                    </div>
-                </div></a>
-            </div>
         </div>
     </section>
 
@@ -131,96 +69,15 @@
     <section class="galleryDisplay">
         <div class="galleryNav">
             <ul id="galleryList">
-                  <a href="#" id="gal1"><li>gallery One</li></a>
-                  <a href="#" id="gal1"><li>gallery Two</li></a>
-                  <a href="#" id="gal1"><li>gallery Three</li></a>
-                  <a href="#" id="gal1"><li>gallery Four</li></a>
-                  <a href="#" id="gal1"><li>gallery Five</li></a>
-                  <a href="#" id="gal1"><li>gallery Six</li></a>
+                  <a href="#" class="buildings"><li>Buildings</li></a>
+                  <a href="#" class="flowers"><li>Flowers</li></a>
+                  <a href="#" class="gameNight"><li>Game Night</li></a>
+                  <a href="#" class="League"><li>League</li></a>
+                  <a href="#" class="portraits"><li>Portraits</li></a>
+                  <a href="#" class="sculptures"><li>Sculptures</li></a>
             </ul>
         </div>
         <div class="photoDisplayCase">
-          <div class="photoAlbumTitle">
-                <h1>Album Number</h1>
-          </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
-              <div class="oneThird">
-                  <a href="#" id="album1">
-                  <div class="albumContainer">
-                      <div class="albumImg"><img alt="" src=
-                      "photoImages/flower1.jpg">
-                      </div>
-
-
-                      <div class="album description">
-                          <p>Stuff About this picture</p>
-                      </div>
-                  </div></a>
-              </div>
 
         </div>
     </section>
@@ -248,11 +105,8 @@
 
     <footer>
         <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/underscore/underscore.js">
-
-        </script>
-        <script src="vars.js">
-        </script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="vars.js"></script>
         <script src="photo-album.js">
         </script>
     </footer>
