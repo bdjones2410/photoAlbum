@@ -144,12 +144,13 @@ PHOTO DISPLAY
 
 .bigPic {
   display: block;
-  width: 800px;
-  height: 800px;
+  width: 700px;
   overflow: hidden;
   margin: auto; }
   .bigPic img {
-    min-width: 100%; }
+    min-width: 100%;
+    min-height: 0;
+    max-width: 100%; }
 
 .activate {
   display: block; }

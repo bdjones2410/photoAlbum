@@ -86,7 +86,7 @@ ALBUM DISPLAY
       width: 100%;
       margin: auto;
     }
-  
+
 .albumdescription{
   height:16%;
 }
@@ -188,12 +188,14 @@ PHOTO DISPLAY
 
 .bigPic {
   display:block;
-  width:800px;
-  height:800px;
+  width:700px;
+
   overflow: hidden;
   margin:auto;
   img{
     min-width:100%;
+    min-height:0;
+    max-width:100%;
   }
 }
 

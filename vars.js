@@ -22,105 +22,105 @@ var imageArray =[
 },
 {
   album: 2,
-  picID: "one",
+  picID: "four",
   albumNamed: "Flowers",
   picURL:"photoImages/flower1.jpg",
   picDescript:"Glowing Flower"
 },
 {
   album: 2,
-  picID: "two",
+  picID: "five",
   albumNamed: "Flowers",
   picURL:"photoImages/flowers2.jpg",
   picDescript: "cool flower pic"
 },
 {
   album: 2,
-  picID: "three",
+  picID: "six",
   albumNamed: "Flowers",
   picURL:"photoImages/flowers3.jpg",
   picDescript: "one more awesome flower"
 },
 {
   album: 3,
-  picID: "one",
+  picID: "seven",
   albumNamed: "Game Night",
   picURL: "photoImages/gamenight1.jpg",
   picDescript:"having a fun Game Night"
 },
 {
   album: 3,
-  picID: "two",
+  picID: "eight",
   albumNamed: "Game Night",
   picURL: "photoImages/gamenight2.jpg",
   picDescript:"More games!"
 },
 {
   album: 3,
-  picID: "three",
+  picID: "nine",
   albumNamed: "Game Night",
   picURL: "photoImages/gamenight3.jpg",
   picDescript: "So many games"
 },
 {
   album: 4,
-  picID: "one",
+  picID: "ten",
   albumNamed: "League",
   picURL: "photoImages/khazix_1.jpg",
   picDescript: "Bug Jungler"
 },
 {
   album: 4,
-  picID: "two",
+  picID: "eleven",
   albumNamed: "League",
   picURL: "photoImages/kindred.jpg",
   picDescript: "Lamb and Wolf"
 },
 {
   album: 4,
-  picID: "three",
+  picID: "twelve",
   albumNamed: "League",
   picURL: "photoImages/Rengar_Splash.jpg",
   picDescript: "Rengu jump"
 },
 {
   album: 5,
-  picID: "one",
+  picID: "thirteen",
   albumNamed: "Portraits",
   picURL: "photoImages/portrait1.jpg",
   picDescript: "portrait study"
 },
 {
   album: 5,
-  picID: "two",
+  picID: "fourteen",
   albumNamed: "Portraits",
   picURL: "photoImages/portrait2.jpg",
   picDescript: "portrait study 2"
 },
 {
   album: 5,
-  picID: "three",
+  picID: "fifteen",
   albumNamed: "Portraits",
   picURL: "photoImages/portrait3.jpg",
   picDescript: "portrait study 3"
 },
 {
   album: 6,
-  picID: "one",
+  picID: "sixteen",
   albumNamed: "Sculptures",
   picURL: "photoImages/sculpture1.jpg",
   picDescript: "mother nature sculpture"
 },
 {
   album: 6,
-  picID: "two",
+  picID: "seventeen",
   albumNamed: "Sculptures",
   picURL: "photoImages/sculpture2.jpg",
   picDescript: "nature themed sculpture"
 },
 {
   album: 6,
-  picID: "three",
+  picID: "eighteen",
   albumNamed: "Sculptures",
   picURL: "photoImages/sculpture3.jpg",
   picDescript: "more sculptures"

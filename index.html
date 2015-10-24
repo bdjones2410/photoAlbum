@@ -8,7 +8,7 @@
     <link href="styles.css" rel="stylesheet">
 
 
-    <script type="text/html" id="picTemp">
+  <script type="text/html" id="picTemp">
 
       <div class="oneThird">
           <a href="" class="<%= album %>">
@@ -23,32 +23,43 @@
               </div>
           </div></a>
       </div>
-
   </script>
-
   <script type="text/html" id="galTemp">
-    <div class="oneThird">
-        <a href="" class="<%= picID %>">
-        <div class="albumContainer">
-            <div class="albumImg"><img alt="" src="
-            <%= picURL %> ">
-            </div>
-
-
-            <div class="albumdescription">
-                <p> <%= picDescript %> </p>
-            </div>
-        </div></a>
-    </div>
-</script>
-
-
-<script type="text/html" id="titleTemp">
-  <div class="photoAlbumTitle">
+      <div class="oneThird">
+          <a href="" class="<%= picID %>">
+          <div class="albumContainer">
+              <div class="albumImg"><img alt="" src="
+              <%= picURL %> ">
+              </div>
+              <div class="albumdescription">
+                  <p> <%= picDescript %> </p>
+              </div>
+          </div></a>
+      </div>
+  </script>
+  <script type="text/html" id="titleTemp">
+    <div class="photoAlbumTitle">
         <h1 class="albNum"><%= albumNamed %></h1>
-  </div>
-</script>
+    </div>
+  </script>
+  <script type="text/html" id="bigPicTemp">
+    <div class="photoHead">
+        <div class="backAlbum">
+            <a href="#" id="backToAlbum"><span class="backButton">&lt;
+            Back to album</span></a>
+        </div>
 
+
+        <div class="photoTitle">
+            <h1><%= picDescript %></h1>
+        </div>
+    </div>
+
+
+    <div class="bigPic"><img alt="" class="hugePic" src=
+    "<%= picURL %>">
+    </div>
+  </script>
 
 
 
