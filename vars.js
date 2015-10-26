@@ -124,21 +124,28 @@ var imageArray =[
   albumNamed: "Sculptures",
   picURL: "photoImages/sculpture3.jpg",
   picDescript: "more sculptures"
+},
+{
+  album: 6,
+  picID: "eighteen",
+  albumNamed: "Sculptures",
+  picURL: "photoImages/sculpture3.jpg",
+  picDescript: "example of loading more than 3"
 }
 ];
 
 var oneOfEach = [{
-  album: "buildings",
+  album: "Buildings",
   picURL:"photoImages/buildings1.jpg",
   picDescript:"Building Album"
 },
 {
-  album: "flowers",
+  album: "Flowers",
   picURL:"photoImages/flower1.jpg",
   picDescript:"Flowers Album"
 },
 {
-  album: "gameNight",
+  album: "Game Night",
   picURL: "photoImages/gamenight1.jpg",
   picDescript:"Game Night"
 },
@@ -148,12 +155,12 @@ var oneOfEach = [{
   picDescript: "League of Legends"
 },
 {
-  album: "portraits",
+  album: "Portraits",
   picURL: "photoImages/portrait3.jpg",
   picDescript: "portrait studies"
 },
 {
-  album: "sculptures",
+  album: "Sculptures",
   picURL: "photoImages/sculpture1.jpg",
   picDescript: "sculptures"
 },
@@ -181,6 +188,14 @@ var albumFive = _.filter(imageArray, function(el) {
 var albumSix = _.filter(imageArray, function(el) {
   return (el.album===6);
 });
+
+
+
+
+
+
+
+
 
 
 //

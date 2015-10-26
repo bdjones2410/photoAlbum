@@ -35,12 +35,14 @@ ALBUM DISPLAY
 
 .albumSpace {
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  padding-bottom: 50px; }
 
 .albumContainer {
   width: 300px;
   padding: 0;
   margin: 17%;
+  margin-bottom: 0;
   border: solid 1px black;
   display: inline-block;
   overflow: hidden;

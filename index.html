@@ -2,68 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-
     <title>photo album</title>
     <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-
-
-  <script type="text/html" id="picTemp">
-
-      <div class="oneThird">
-          <a href="" class="<%= album %>">
-          <div class="albumContainer">
-              <div class="albumImg"><img alt="" src="
-              <%= picURL %> ">
-              </div>
-
-
-              <div class="albumdescription">
-                  <p> <%= picDescript %> </p>
-              </div>
-          </div></a>
-      </div>
-  </script>
-  <script type="text/html" id="galTemp">
-      <div class="oneThird">
-          <a href="" class="<%= picID %>">
-          <div class="albumContainer">
-              <div class="albumImg"><img alt="" src="
-              <%= picURL %> ">
-              </div>
-              <div class="albumdescription">
-                  <p> <%= picDescript %> </p>
-              </div>
-          </div></a>
-      </div>
-  </script>
-  <script type="text/html" id="titleTemp">
-    <div class="photoAlbumTitle">
-        <h1 class="albNum"><%= albumNamed %></h1>
-    </div>
-  </script>
-  <script type="text/html" id="bigPicTemp">
-    <div class="photoHead">
-        <div class="backAlbum">
-            <a href="#" id="backToAlbum"><span class="backButton">&lt;
-            Back to album</span></a>
-        </div>
-
-
-        <div class="photoTitle">
-            <h1><%= picDescript %></h1>
-        </div>
-    </div>
-
-
-    <div class="bigPic"><img alt="" class="hugePic" src=
-    "<%= picURL %>">
-    </div>
-  </script>
-
-
-
-
 </head>
 
 <body>
@@ -80,12 +21,13 @@
     <section class="galleryDisplay">
         <div class="galleryNav">
             <ul id="galleryList">
-                  <a href="#" class="buildings"><li>Buildings</li></a>
-                  <a href="#" class="flowers"><li>Flowers</li></a>
-                  <a href="#" class="gameNight"><li>Game Night</li></a>
+                  <a href="#" class="Home"><li>Home</li></a>
+                  <a href="#" class="Buildings"><li>Buildings</li></a>
+                  <a href="#" class="Flowers"><li>Flowers</li></a>
+                  <a href="#" class="Game Night"><li>Game Night</li></a>
                   <a href="#" class="League"><li>League</li></a>
-                  <a href="#" class="portraits"><li>Portraits</li></a>
-                  <a href="#" class="sculptures"><li>Sculptures</li></a>
+                  <a href="#" class="Portraits"><li>Portraits</li></a>
+                  <a href="#" class="Sculptures"><li>Sculptures</li></a>
             </ul>
         </div>
         <div class="photoDisplayCase">
@@ -117,6 +59,7 @@
     <footer>
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/underscore/underscore.js"></script>
+        <script src="templates.js"></script>
         <script src="vars.js"></script>
         <script src="photo-album.js">
         </script>
