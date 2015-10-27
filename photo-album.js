@@ -13,6 +13,7 @@ var photoAlbum = {
         $('a').on('click', function(event) {
             event.preventDefault();
             var curAlbum = this.className;
+            console.log(curAlbum);
             $('.galleryDisplay').addClass('activate');
             $('.albumDisplay').removeClass('activate');
             var currentArray = "";
